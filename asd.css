@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  #navbar {
+    display: flex;
+    text-align: center;
+    top: 0px;
+    height: 200px;
+    width: 100%;
+    margin: 2px 2px ;
+    padding: 0px 0px ;
+    position: fixed;
+    
+  }
+  #navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+  }
+  #logo {
+    margin: 0px 27px;
+    padding: 2px 2px ;
+  }
+  #logo img {
+    margin: 20px 0px;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+  }
+  #logo img:hover {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+  
+
+  #navbar ul {
+    display: flex;
+    
+  }
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.8rem;
+    margin: 2px 2px;
+  }
+  #navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 8px;
+    margin: 22px 16px;
+    color: white;
+  }
+  #navbar ul li a:hover {
+    background-color: rgb(251, 240, 229);
+    color: rgb(91, 75, 66);
+    border-radius: 9px;
+  }
+  #right {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  .submit {
+    background-color: white;
+    color: rgb(254, 192, 159);
+    border: 10px;
+    border-radius: 5px;
+    font-size: 2.2rem;
+    margin: 2px 2px;
+    padding: 2px 2px;
+  }
+  .submit:hover {
+    background-color: rgb(251, 240, 229);
+    color: rgb(91, 75, 66);
+    cursor: pointer;
+  }
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Baloo Bhai 2", cursive;
+    padding: 240px 200px;
+    color: white;
+  }
+  #home::before {
+    content: "";
+    display: flex;
+    background: url(/image/coffee.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+  }
+  h1 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn {
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(254, 192, 159);
+    font-size: 40px;
+    border: 200px;
+    width: 221px;
+    height: 63px;
+    margin: 20px ;
+  }
+  .btn:hover {
+    background-color: rgb(251, 240, 229);
+    border-radius: 10px;
+    color: rgb(91, 75, 66);
+    font-size: 40px;
+    cursor: pointer;
+  }
+  #container {
+    display: flex;
+    position: absolute;
+    top: 750px;
+    margin: 2px 2px;
+  }
+  #container{
+    width:100%;
+    height: 500px;
+    background-color: rgb(242, 240, 238);
+
+  }
+  #container h4 {
+    font-size: 50px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+    position: absolute;
+    top: 20px;
+    left: 600px;
+  }
+  .box {
+    width: 350px;
+    height: 300px;
+    background-color:rgb(225, 211, 193);
+    border: 4px solid rgb(252, 184, 148);
+    border-radius: 10px;
+    margin: 100px 20px;
+    padding: 30px 50px;
+  }
+  .box img {
+    display: flex;
+    margin: 2px 75px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+  .box h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+  }
+  .box p{
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .footer{
+    display: block;
+    position: absolute;
+    top: 1280px;
+    margin: 0px 0px ;
+    width: 100%;
+    height: 500px;
+    background-color:rgb(242, 240, 238) ;
+  }
+  .footer ul{
+    display: flex;
+  }
+  .footer  li{
+    
+    width: 100%;
+    height: 40px;
+    background-color: antiquewhite;
+    margin: 2px 2px ;
+    list-style: none;
+  }
+  .footer  li a{
+    margin: 2px 2px ;
+    text-decoration: none;
+    padding: 2px 2px ;
+    font-size: 1.9rem;
+    
+
+
+
+  }
